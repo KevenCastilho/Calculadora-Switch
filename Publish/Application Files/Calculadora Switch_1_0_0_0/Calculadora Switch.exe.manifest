@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Calculadora Switch.exe" version="1.0.0.0" publicKeyToken="bcadcd591bed92f4" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Calculadora Switch" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Calculadora Switch.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto do UAC
+          Para alterar o nível de Controle de Conta de Usuário do Windows, substitua o nó
+          requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Para utilizar a Virtualização de Arquivos e Registro para manter a compatibilidade com versões anteriores,
+         exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Calculadora Switch.exe" size="15896">
+      <assemblyIdentity name="Calculadora Switch" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>1cVR2LidmFwyBjhumNy1fgsaOyYap07XP/I1lbL82qI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MaterialSkin.dll" size="6624256">
+      <assemblyIdentity name="MaterialSkin" version="2.1.2.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>eFkKcQ3pVQQssMM9Q337fafJEG7dmarnYZtuCVW0KDE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Calculadora Switch.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-F4CHUQ7\Keven Castilho" issuerKeyHash="6e5a89974d7217ef47f7c5c0d38cd9748d363eed" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>cb4jYMU0jqslS78oH9ZQJXH018rDgMGRB2Z0mC+PzYE=</DigestValue></Reference></SignedInfo><SignatureValue>nqkkvy7QjhNBORuthHHUTYv7TmAaDkTT1Mi4nvnbiVfjQoQpkZv4gXS2jDC3jwJEGSLW4ZMiTSDU+ZHFIXvd3o3hzzAYB8IAfXLRpqMspEQ0gx8NejmfwBPR4KExL3/Zs4khpZnNzvbN2qYQWVCFRYhUE/SmDLCL2GDqggI6VXc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ujpXpBqpjnODLTTZ828oAiMgj4s0zqPEpE2dn92g0cCUy3hit/TLmPGH4dyiWkwMcWL2iiKOaX+eMlILtc03TKACzJzFitQgAcKfUCz6JuAsqc5Y6VVmKKq3qjuAHivOjTSzpuQmGYn3Yd3Z2PId7T7CSPdaS1aAsJE8UNMKr7E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="81cd8f2f9874660791c180c3cad7f4712550d61f28bf4b25ab8e34c56023be71" Description="" Url=""><as:assemblyIdentity name="Calculadora Switch.exe" version="1.0.0.0" publicKeyToken="bcadcd591bed92f4" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-F4CHUQ7\Keven Castilho</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>+nCxxpQs4TCQUPv7pvYOfbZF3XPl+OkMLSuxDSdHCJc=</DigestValue></Reference></SignedInfo><SignatureValue>PSuz+YKu8MCKYo9GFCUEBuIaE37Y+BLaqEJlIPifmidR37g1KFMjMg7IH2AY2TBTMLCym9vJeZQnVJ7mwQr63xxQA7aJieETsJ1DC4Y75SVv9tCOByCwn6kEROz9fRBDy78vIfBXWIXKuqJMICdz1Es1ujXciV3HSnYX2T3fZUY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ujpXpBqpjnODLTTZ828oAiMgj4s0zqPEpE2dn92g0cCUy3hit/TLmPGH4dyiWkwMcWL2iiKOaX+eMlILtc03TKACzJzFitQgAcKfUCz6JuAsqc5Y6VVmKKq3qjuAHivOjTSzpuQmGYn3Yd3Z2PId7T7CSPdaS1aAsJE8UNMKr7E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICETCCAXqgAwIBAgIQU2bb5j3BHIBM6BT6iJB86DANBgkqhkiG9w0BAQsFADBHMUUwQwYDVQQDHjwARABFAFMASwBUAE8AUAAtAEYANABDAEgAVQBRADcAXABLAGUAdgBlAG4AIABDAGEAcwB0AGkAbABoAG8wHhcNMjEwMzI2MTAxMDUzWhcNMjIwMzI2MTYxMDUzWjBHMUUwQwYDVQQDHjwARABFAFMASwBUAE8AUAAtAEYANABDAEgAVQBRADcAXABLAGUAdgBlAG4AIABDAGEAcwB0AGkAbABoAG8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALo6V6QaqY5zgy002fNvKAIjII+LNM6jxKRNnZ/doNHAlMt4Yrf0y5jxh+HcolpMDHFi9ooijml/njJSC7XNN0ygAsycxYrUIAHCn1As+ibgLKnOWOlVZiiqt6o7gB4rzo00s6bkJhmJ92Hd2djyHe0+wkj3WktWgLCRPFDTCq+xAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAsHknUxsDiW3HIGJvgJeEc4258kVpqrYF80f0Q/h59sbeTKdWLeHyxs27vE1j5JCxIlMnSllrGnVhGYeEKHcB/vv/vjHqiDJ7digAy1FWg3iRNDZSHoH23EMpWI8bCfZDqjHPoDSKZZ54LP7aR9mZfMrg/FtJBO0mjDoQL4V18Tg=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

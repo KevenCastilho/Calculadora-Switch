@@ -1,0 +1,16 @@
+C:\Users\Keven Castilho\source\repos\Calculadora Switch\bin\Debug\Calculadora Switch.exe.config
+C:\Users\Keven Castilho\source\repos\Calculadora Switch\bin\Debug\Calculadora Switch.exe
+C:\Users\Keven Castilho\source\repos\Calculadora Switch\bin\Debug\Calculadora Switch.pdb
+C:\Users\Keven Castilho\source\repos\Calculadora Switch\obj\Debug\Calculadora_Switch.Form1.resources
+C:\Users\Keven Castilho\source\repos\Calculadora Switch\obj\Debug\Calculadora_Switch.Properties.Resources.resources
+C:\Users\Keven Castilho\source\repos\Calculadora Switch\obj\Debug\Calculadora Switch.csproj.GenerateResource.cache
+C:\Users\Keven Castilho\source\repos\Calculadora Switch\obj\Debug\Calculadora Switch.csproj.CoreCompileInputs.cache
+C:\Users\Keven Castilho\source\repos\Calculadora Switch\obj\Debug\Calculadora Switch.exe
+C:\Users\Keven Castilho\source\repos\Calculadora Switch\obj\Debug\Calculadora Switch.pdb
+C:\Users\Keven Castilho\source\repos\Calculadora Switch\bin\Debug\MaterialSkin.dll
+C:\Users\Keven Castilho\source\repos\Calculadora Switch\obj\Debug\Calculadora Switch.csproj.CopyComplete
+C:\Users\Keven Castilho\source\repos\Calculadora Switch\bin\Debug\Calculadora Switch.exe.manifest
+C:\Users\Keven Castilho\source\repos\Calculadora Switch\bin\Debug\Calculadora Switch.application
+C:\Users\Keven Castilho\source\repos\Calculadora Switch\obj\Debug\Calculadora Switch.exe.manifest
+C:\Users\Keven Castilho\source\repos\Calculadora Switch\obj\Debug\Calculadora Switch.application
+C:\Users\Keven Castilho\source\repos\Calculadora Switch\obj\Debug\Calculadora Switch.csprojAssemblyReference.cache
